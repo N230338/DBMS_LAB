@@ -3,6 +3,7 @@ USE PlayStoreDB ;
 CREATE TABLE Developers(
 	DeveloperID int primary key,
     DeveloperName VARCHAR(60) NOT NULL,
+
     Country VARCHAR(30),
     FoundedYear int);
 INSERT into Developers values
