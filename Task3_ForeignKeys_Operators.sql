@@ -30,7 +30,7 @@ SELECT * FROM Apps WHERE Rating>4.0 AND Downloads>5000000;
 SELECT * FROM Apps WHERE CategoryId=301 OR CategoryId=305;
 
 SELECT * FROM Apps WHERE AppName NOT LIKE 'G%';
-SELECT * FROM Apps WHERE Rating<4.5 AND Downloads>10000000;
+SELECT * FROM Apps WHERE Rating<4.5 OR Downloads>10000000;
 SELECT * FROM Developers WHERE DeveloperName LIKE '%a%';
 SELECT * FROM Apps WHERE Price BETWEEN 0 AND 300;
 SELECT * FROM Apps WHERE PublisherID=201 OR PublisherID=204;
